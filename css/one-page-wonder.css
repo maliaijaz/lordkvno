@@ -1,5 +1,16 @@
 body {
-  font-family: 'Lato';
+  /*font-family: 'Lato';*/
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.song-titles {
+  text-transform: uppercase;
+}
+
+/* Overrides */
+@font-face {
+    font-family: Smoke;
+    src: url('../fonts/smoke.TTF');
 }
 
 h1,
@@ -8,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran';
+  font-family: Smoke;
   font-weight: 800 !important;
 }
 
@@ -28,6 +39,10 @@ h6 {
   border-radius: 5rem;
 }
 
+.complementary-font {
+  font-family: 'Archivo Black', sans-serif;
+}
+
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -36,9 +51,11 @@ h6 {
 
 .navbar-custom .navbar-brand {
   text-transform: uppercase;
+  /*font-family: Smoke;*/
+  font-family: 'Archivo Black', sans-serif;
   font-size: 1rem;
   letter-spacing: 0.1rem;
-  font-weight: 700;
+  font-weight: bolder;
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
@@ -46,6 +63,7 @@ h6 {
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
+  font-family: 'Archivo Black', sans-serif;
 }
 
 header.masthead {
@@ -66,7 +84,8 @@ header.masthead .masthead-content {
 }
 
 header.masthead .masthead-content .masthead-heading {
-  font-size: 4rem;
+  font-size: 6rem;
+  color: black;
 }
 
 header.masthead .masthead-content .masthead-subheading {
@@ -151,4 +170,38 @@ header.masthead .bg-circle-4 {
 
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+.copyright-styles {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+}
+
+.smaller-font-size {
+  font-size: 12px !important;
+}
+
+a.album-links-caroline{
+  color: #36DEFB;
+  text-decoration: none;
+}
+
+a.album-links-caroline:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a.album-links-olord{
+  color: #D22263;
+  text-decoration: none;
+}
+
+a.album-links-olord:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.inline-block {
+  display: inline-block;
 }
