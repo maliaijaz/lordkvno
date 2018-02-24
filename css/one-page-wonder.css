@@ -19,8 +19,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Smoke;
+  /*font-family: Smoke;*/
   font-weight: 800 !important;
+}
+
+.display-4 {
+  font-family: Smoke;
 }
 
 .btn-xl {
@@ -89,7 +93,7 @@ header.masthead .masthead-content .masthead-heading {
 }
 
 header.masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 header.masthead .bg-circle {
@@ -136,7 +140,7 @@ header.masthead .bg-circle-4 {
     font-size: 6rem;
   }
   header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
+    font-size: 1.6rem;
   }
 }
 
