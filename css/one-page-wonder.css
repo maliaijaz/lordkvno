@@ -75,7 +75,9 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  /*background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);*/
+  background: linear-gradient(0deg, #00022D 0%, #3CC2EB 100%);
+  /*// #00022D #3CC2EB*/
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -100,7 +102,9 @@ header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  background: linear-gradient(0deg, #3CC2EB 0%, #4353A6 100%);
+
+  /*#3CC2EB #3559C3 #4353A6*/
 }
 
 header.masthead .bg-circle-1 {
@@ -183,7 +187,7 @@ header.masthead .bg-circle-4 {
 }
 
 .smaller-font-size {
-  font-size: 12px !important;
+  font-size: 14px !important;
 }
 
 a.album-links-caroline{
@@ -206,6 +210,18 @@ a.album-links-olord:hover {
   color: black;
 }
 
+a.social-music-links {
+  color: #D22263;
+}
+
 .inline-block {
   display: inline-block;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.caroline-color-darkblue {
+  color: #2B4B88;
 }
