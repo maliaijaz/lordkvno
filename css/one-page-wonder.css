@@ -75,13 +75,15 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('../img/gallery/photo2.jpg');
+    background-size:100% auto;
   /*background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);*/
-  background: linear-gradient(0deg, #00022D 0%, #3CC2EB 100%);
+  /*background: linear-gradient(0deg, #00022D 0%, #3CC2EB 100%);*/
   /*// #00022D #3CC2EB*/
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 header.masthead .masthead-content {
@@ -91,7 +93,8 @@ header.masthead .masthead-content {
 
 header.masthead .masthead-content .masthead-heading {
   font-size: 6rem;
-  color: black;
+  /*color: black;*/
+  color: white;
 }
 
 header.masthead .masthead-content .masthead-subheading {
@@ -139,6 +142,10 @@ header.masthead .bg-circle-4 {
   header.masthead {
     padding-top: calc(10rem + 55px);
     padding-bottom: 10rem;
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('../img/gallery/photo2.jpg');
+    background-size:100% auto;
+    /*background: url("../img/gallery/caroline.jpg");*/
+    /*background-image: url("../img/gallery/photo4.jpg");*/
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
@@ -146,6 +153,7 @@ header.masthead .bg-circle-4 {
   header.masthead .masthead-content .masthead-subheading {
     font-size: 1.6rem;
   }
+
 }
 
 .bg-primary {
@@ -153,8 +161,8 @@ header.masthead .bg-circle-4 {
 }
 
 .btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979;
+  background-color: black;
+  border-color: black;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -224,4 +232,10 @@ a.social-music-links {
 
 .caroline-color-darkblue {
   color: #2B4B88;
+}
+
+@media screen and (min-width: 992px) {
+  .bg-circle {
+    display: none;
+  }
 }
